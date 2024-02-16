@@ -4,9 +4,9 @@ import Tabs from "../globals/GlobalConstants";
 
 const headerButtons = ["Pomodoro", "Pausa Corta", "Pausa Larga"];
 
-export default function Header({currentTab, setCurrentTab, setTime, setIsActive}) {
+export default function Header({currentTab, setCurrentTab, setTime, setIsActive}:any) {
   
-  function handlePress(index) {
+  function handlePress(index:number) {
     const newTime = index === 0 ? 25 : index === 1 ? 5 : 15;
     setCurrentTab(index); 
     setTime(newTime * 60);
