@@ -1,6 +1,5 @@
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import GlobalStyles from "../globals/GlobalStyles";
-import Tabs from "../globals/GlobalConstants";
 
 const headerButtons = ["Pomodoro", "Pausa Corta", "Pausa Larga"];
 

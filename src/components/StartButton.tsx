@@ -1,6 +1,6 @@
 import { TouchableOpacity, Text } from "react-native";
 import GlobalStyles from "../globals/GlobalStyles";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {Audio} from "expo-av"
 
 export default function StartButton({isActive, setIsActive}:any) {
